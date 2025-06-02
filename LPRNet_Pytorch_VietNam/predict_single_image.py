@@ -22,7 +22,7 @@ def get_parser():
     parser.add_argument('--lpr_max_len', default=8, help='license plate number max length.')
     parser.add_argument('--phase_train', default=False, type=bool, help='train or test phase flag.')
     parser.add_argument('--cuda', default=False, type=bool, help='Use cuda to train model') # Thay đổi default cuda=False
-    parser.add_argument('--pretrained_model', default='./model_trained/LPRNet_Pytorch_VietNam.pth', help='pretrained base model')
+    parser.add_argument('--pretrained_model', default='./model_trained/LPRNet_Pytorch_China.pth', help='pretrained base model')
 
     args = parser.parse_args()
 
