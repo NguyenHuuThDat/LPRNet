@@ -1,19 +1,12 @@
 ## Đề tài: Nhận dạng biển số xe với Deep Neural Networks
-## Thành viên :
-
-| **Tên**              | **Lớp**               | **Mã sinh viên**          |
-|-------------------    |-------------------------|--------------------------|
-| **Lê Phạm Công**    | 20KTMT1                 | 106200221                |
-| **Phan Công Danh**       | 20KTMT1                 | 106200222                |
-| **Trần Đình Thi**    | 20KTMT1                 | 106200246                |
 
 ## Mô tả
 
 Đề tài này nhằm triển khai thực hiện triển khai mô hình LPRNet [1] với bộ dữ liệu biển số xe Trung Quốc được tổng hợp từ bộ dữ liệu CCPD2020 [2] và bộ dữ liệu biển số xe Việt Nam được thu thập thông qua ảnh chụp thực tế.
 
 ## Dataset
-#### Bộ dữ liệu biển số xe Trung Quốc: https://github.com/lephamcong/PBL4_LPRNet/tree/main/Dataset/BiensoxeTrungQuoc
-#### Bộ dữ liệu biển số xe Việt Nam: https://github.com/lephamcong/PBL4_LPRNet/tree/main/Dataset/BiensoxeVietNam
+#### Bộ dữ liệu biển số xe Trung Quốc: https://github.com/NguyenHuuThDat/LPRNet/tree/main/Dataset/BiensoxeTrungQuoc
+#### Bộ dữ liệu biển số xe Việt Nam: https://github.com/NguyenHuuThDat/LPRNet/tree/main/Dataset/BiensoxeVietNam
 
 ## Cấu trúc thư mục
 
@@ -27,7 +20,7 @@
 **1. Clone repo:**
 
 ```
-https://github.com/lephamcong/PBL4_LPRNet.git
+https://github.com/NguyenHuuThDat/LPRNet.git
 ```
 
 **2. Cài đặt các thư viện cần thiết:**
@@ -72,9 +65,3 @@ computer vision (ECCV). 2018
 [4] https://github.com/mesakarghm/LPRNET
 
 [5] https://github.com/xuexingyu24/License_Plate_Detection_Pytorch.git
-
-## Thông tin liên hệ
-- Lê Phạm Công
-- Email: lpc051002@gmail.com
-
-
